@@ -1,0 +1,29 @@
+{
+  "err": null,
+  "res": {
+    "req": {
+      "method": "post",
+      "url": "http://127.0.0.1:50776/register",
+      "data": {
+        "username": "zohaib",
+        "email": "zohaib@myimpactmeter.com",
+        "password": "1234567"
+      },
+      "headers": {
+        "user-agent": "node-superagent/3.8.3",
+        "content-type": "application/json"
+      }
+    },
+    "header": {
+      "x-powered-by": "Express",
+      "access-control-allow-origin": "*",
+      "content-type": "application/json; charset=utf-8",
+      "content-length": "143",
+      "etag": "W/\"8f-J8+/D17iQcA5Od7d920j8PcDKXw\"",
+      "date": "Fri, 04 Nov 2022 20:56:42 GMT",
+      "connection": "close"
+    },
+    "status": 201,
+    "text": "{\"message\":\"success\",\"status\":true,\"data\":{\"resUser\":{\"username\":\"zohaib\",\"email\":\"zohaib@myimpactmeter.com\",\"id\":\"63657c85a41bcc0943726807\"}}}"
+  }
+}
